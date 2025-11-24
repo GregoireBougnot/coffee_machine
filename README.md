@@ -49,6 +49,6 @@ SET coffee_name = REPLACE(coffee_name, 'expresso', 'espresso');
 
 
 
-##📊 Key Insights
+## 📊 Key Insights
 
 The analysis highlights several opportunities from a business perspective. Card payments largely outperform cash, confirming that the machine benefits from offering seamless digital payment options. Revenue is mostly driven by a small number of popular products, with lattes and hot chocolate generating a significant share of total sales. This concentration suggests that focusing on these high-performing items through stock prioritization, pricing strategies, or promotional offers could further increase profitability. Additionally, the consistent volume of transactions indicates stable customer demand, making this machine a reliable revenue source with room for optimization based on top-selling products.
