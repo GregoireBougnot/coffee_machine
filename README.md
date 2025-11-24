@@ -25,3 +25,24 @@ The goal is to demonstrate end-to-end data analytics skills, from raw data clean
 └─ images/ # Dashboard screenshots
 ├─ KPI.png
 ├─ Product Analysis.png
+
+## 🪛 MYSQL Formulas
+✔ Standardize coffee names
+UPDATE index_1
+SET coffee_name = LOWER(TRIM(coffee_name));
+
+✔ Remove empty or invalid rows
+DELETE FROM index_1
+WHERE coffee_name = '' OR money = '';
+
+✔ Convert money to decimal
+ALTER TABLE index_1
+MODIFY COLUMN money DECIMAL(10,2);
+
+✔ Delete uneccessary spaces TRIM()
+UPDATE index_1
+SET coffee_name = TRIM(coffee_name);
+
+✔  REPLACE synthax errors
+UPDATE index_1
+SET coffee_name = REPLACE(coffee_name, 'expresso', 'espresso');
