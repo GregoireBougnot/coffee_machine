@@ -49,7 +49,7 @@ SET coffee_name = REPLACE(coffee_name, 'expresso', 'espresso');
 
 ## 📈 Predictive Analysis (2024 Only)
 
-A simple predictive model was implemented using Linear Regression to estimate daily coffee machine sales for 2024. The model captures the overall trend of transactions and illustrates how basic forecasting techniques can support business decisions, such as optimizing stock levels and identifying high-demand products.
+I created a simple Linear Regression model to estimate daily coffee machine sales for 2024. The model helps visualize general sales trends and gives a sense of how daily demand could evolve. This exercise allowed me to practice preparing data, applying a basic machine learning model, and visualizing predictions, while keeping the focus on real business insights like understanding popular products and overall demand patterns.
 
 
 
