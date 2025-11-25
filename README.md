@@ -1,5 +1,5 @@
 # Coffee Machine Sales Analysis  
-A complete data analysis project including SQL data cleaning, Power BI dashboards, and business insights based on real coffee machine transactions.
+A complete data analysis project including SQL data cleaning, Power BI dashboards, business insights and python prediction based on real coffee machine transactions.
 
 ---
 
@@ -19,12 +19,14 @@ The goal is to demonstrate end-to-end data analytics skills, from raw data clean
 
 ## 📂 Project Structure  
 │
-├─ Machine_a_cafe.pbix # Final Power BI dashboard
-├─ index_1_sample.csv # Cleaned dataset (sample)
-├─ README.md # Documentation
-└─ images/ # Dashboard screenshots
-├─ KPI.png
-├─ Product Analysis.png
+├── pictures/                # Dashboard and graphics analysis
+│   ├── dashboard.png
+│   ├── predictions.png
+│
+│
+├── Data.csv                 # Dataset used for analysis
+│
+└── README.md   
 
 ## 🪛 MYSQL Formulas
 ✔ Standardize coffee names
@@ -50,7 +52,6 @@ SET coffee_name = REPLACE(coffee_name, 'expresso', 'espresso');
 ## 📈 Predictive Analysis 
 
 I created a simple Linear Regression model to estimate daily coffee machine sales for 2024. The model helps visualize general sales trends and gives a sense of how daily demand could evolve. This exercise allowed me to practice preparing data, applying a basic machine learning model, and visualizing predictions, while keeping the focus on real business insights like understanding popular products and overall demand patterns.
-
 
 
 ## 📊 Key Insights
